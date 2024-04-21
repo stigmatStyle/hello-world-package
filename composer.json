@@ -1,0 +1,20 @@
+{
+    "name": "smwl/hello-world",
+    "description": "Library shows string throwed through parameter",
+    "type": "library",
+    "require": {
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smwl\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vadzim Verameyeu"
+        }
+    ],
+    "minimum-stability": "dev"
+}
