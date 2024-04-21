@@ -1,0 +1,20 @@
+{
+    "name": "vvdev/hello-world",
+    "description": "Plugin which shows \"Hello world\"",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vvdev\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vadzim Verameyeu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
